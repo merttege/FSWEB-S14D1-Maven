@@ -7,6 +7,7 @@ public class Circle {
         if(radius < 0){
             radius = 0;
         }
+        this.radius = radius;
     }
 
     public double getRadius() {
