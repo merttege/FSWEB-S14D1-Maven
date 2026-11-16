@@ -1,9 +1,9 @@
 package com.workintech.developers;
 
 public class Employee {
-    long id;
-    String name;
-    double salary;
+    private long id;
+    private String name;
+    private double salary;
 
     public Employee(long id, String name, double salary){
         this.id = id;
